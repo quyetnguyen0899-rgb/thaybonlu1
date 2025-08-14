@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Ơn giời thầy đây rồi</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .image-container {
+      position: relative;
+      max-width: 1000px; /* Làm hình to hơn */
+      border: 6px solid #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+      overflow: hidden;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container:hover {
+      transform: scale(1.02);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.25);
+    }
+
+    .image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    .image-button {
+      position: absolute;
+      top: 210px;
+      left: 150px;
+      background: linear-gradient(135deg, #ff5f6d, #ffc371);
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .image-button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="d5a031a6-0dc3-457c-9309-a3f8c2de3d47.png" alt="Ảnh chính">
+
+  <!-- Nút trái tim -->
+  <a href="video.html">
+    <button class="image-button" title="Cái gì đây ❤️">❤️</button>
+  </a>
+</div>
+
+</body>
+</html>
